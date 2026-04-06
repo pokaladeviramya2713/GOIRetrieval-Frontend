@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Header -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_back"
+            app:tint="@color/grey_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_toolbar_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif-bold"
+            android:text="Document Text"
+            android:textColor="@color/navy_home"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/iv_download"
+            app:layout_constraintStart_toEndOf="@id/iv_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_download"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_download"
+            app:tint="@color/grey_text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/header">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/tv_article_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-black"
+                android:text="Article Title"
+                android:textColor="@color/navy_home"
+                android:textSize="24sp"
+                android:layout_marginBottom="24dp"
+                android:gravity="start"
+                android:textAlignment="viewStart"/>
+
+            <TextView
+                android:id="@+id/tv_article_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8dp"
+                android:textAlignment="viewStart"
+                android:gravity="start"
+                android:text="1. Introduction\n\nThe National Education Policy 2020 (NEP 2020) outlines the vision of India's new education system. The policy is a comprehensive framework for elementary education to higher education as well as vocational training in both rural and urban India.\n\n2. Key Principles\n\n• Recognizing, identifying, and fostering the unique capabilities of each student.\n• Achieving Foundational Literacy and Numeracy by all students by Grade 3.\n• Flexibility, so that learners have the ability to choose their learning trajectories.\n• No hard separations between arts and sciences, between curricular and extra-curricular activities.\n• Multi-disciplinarity and a holistic education across the sciences, social sciences, arts, humanities, and sports for a multidisciplinary world.\n\n3. Restructuring School Curriculum\n\nThe policy proposes a '5+3+3+4' design covering children in the age group of 3-18 years. This aligns the stages of schooling with the cognitive development stages of children.\n\n4. Higher Education\n\nNEP aims to increase the Gross Enrolment Ratio in higher education including vocational education from 26.3% (2018) to 50% by 2035. Institutional restructuring and consolidation aim to build vibrant, multidisciplinary institutions of high quality.\n\n5. Conclusion\n\nThe transformation set to be brought by NEP 2020 requires collaborative efforts from all stakeholders including states, institutions, teachers, and parents."
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

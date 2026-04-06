@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="60dp"
+    android:height="40dp"
+    android:viewportWidth="60"
+    android:viewportHeight="40">
+    <!-- Main bubble body -->
+    <path
+        android:fillColor="#1A237E"
+        android:pathData="M8,0 L52,0 C56.4,0 60,3.6 60,8 L60,24 C60,28.4 56.4,32 52,32 L34,32 L30,40 L26,32 L8,32 C3.6,32 0,28.4 0,24 L0,8 C0,3.6 3.6,0 8,0 Z" />
+</vector>

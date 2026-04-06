@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navy_bg">#1A1B4B</color>
+    <color name="navy_primary">#1A1B4B</color>
+    <color name="light_circle_bg">#F0F2F5</color>
+    <color name="grey_text">#757575</color>
+    <color name="indicator_inactive">#E0E0E0</color>
+    <color name="navy_home">#1A237E</color>
+    <color name="online_green">#2E7D32</color>
+    <color name="online_bg">#E8F5E9</color>
+    <color name="dot_navy">#1A237E</color>
+    <color name="dot_green">#4CAF50</color>
+    <color name="dot_orange">#FF9800</color>
+    <color name="dot_red">#F44336</color>
+    <color name="dot_purple">#9C27B0</color>
+    <color name="light_blue">#DDE6FF</color>
+    <color name="light_grey_bg">#F5F7F9</color>
+    <color name="bg_lavender">#E8EAF6</color>
+    <color name="bg_purple">#F3E5F5</color>
+    <color name="bg_orange">#FFF3E0</color>
+    <color name="bg_light_red">#FFEBEE</color>
+    <color name="bg_light_green">#E8F5E9</color>
+    <color name="stat_green">#2E7D32</color>
+    <color name="stat_green_bg">#DCEDC8</color>
+    <color name="bg_light_blue">#DDE6FF</color>
+    <color name="green_primary">#2E7D32</color>
+    <color name="orange_primary">#EA580C</color>
+    <color name="purple_primary">#9333EA</color>
+    <color name="navy_blue">#1A237E</color>
+</resources>

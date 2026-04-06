@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey_bg">
+
+    <!-- Header Header (Branding + Tabs) -->
+    <LinearLayout
+        android:id="@+id/ll_docs_full_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- 1. Top Branding Row (Compact) -->
+        <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="12dp"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="4dp">
+
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+                
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    app:cardCornerRadius="22dp"
+                    app:cardElevation="1dp"
+                    app:cardBackgroundColor="@android:color/white">
+                    <ImageView 
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/app_logo_premium"
+                        android:scaleType="centerInside"
+                        android:padding="0dp" />
+                </com.google.android.material.card.MaterialCardView>
+
+                <LinearLayout 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GOI Retrieval"
+                        android:textColor="@color/navy_home"
+                        android:fontFamily="sans-serif-black"
+                        android:textSize="16sp" />
+                    <TextView 
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ministry of Education"
+                        android:textColor="@color/grey_text"
+                        android:textSize="10sp"
+                        android:fontFamily="sans-serif-medium" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout 
+                android:id="@+id/rl_notification_bell"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_profile_circle"
+                android:backgroundTint="@color/white"
+                android:clickable="true"
+                android:focusable="true">
+                <ImageView 
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_notification"
+                    app:tint="@color/grey_text" />
+                <View 
+                    android:id="@+id/view_notification_dot"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/dot_red"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- Tab Bar -->
+        <LinearLayout
+            android:id="@+id/tab_container"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:paddingHorizontal="4dp">
+
+        <LinearLayout
+            android:id="@+id/tab_recent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tab_recent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recent"
+                android:textColor="@color/navy_home"
+                android:fontFamily="sans-serif-bold"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/indicator_recent"
+                android:layout_width="40dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="6dp"
+                android:background="@color/navy_home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_saved"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_tab_saved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saved"
+                android:textColor="@color/grey_text"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/indicator_saved"
+                android:layout_width="40dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="6dp"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_browse_docs"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingHorizontal="20dp"
+        android:paddingTop="16dp"
+        android:clipToPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ll_docs_full_header" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

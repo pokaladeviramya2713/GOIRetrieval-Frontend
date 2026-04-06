@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/graph_tooltip_flag"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="gone"
+    android:background="@drawable/bg_tooltip"
+    android:padding="8dp"
+    android:elevation="8dp">
+
+    <TextView
+        android:id="@+id/tv_tooltip_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon"
+        android:textColor="@color/grey_text"
+        android:textSize="10sp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <TextView
+        android:id="@+id/tv_tooltip_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="120"
+        android:textColor="@color/navy_home"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="2dp"/>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_notif"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp"
+    app:strokeWidth="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_icon_container"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_icon_circle_light">
+            
+            <ImageView
+                android:id="@+id/iv_notif_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_info_blue" />
+        </RelativeLayout>
+
+        <TextView 
+            android:id="@+id/tv_notif_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@id/rl_icon_container"
+            android:layout_toStartOf="@id/container_meta"
+            android:fontFamily="sans-serif-bold"
+            android:text="Notification Title"
+            android:textColor="@color/navy_home"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:id="@+id/container_meta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:src="@drawable/ic_clock"
+                app:tint="@color/grey_text" />
+
+            <TextView 
+                android:id="@+id/tv_notif_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="2h ago"
+                android:textColor="@color/grey_text"
+                android:textSize="11sp" />
+
+            <View
+                android:id="@+id/dot_unread"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/nav_active_dot"
+                android:backgroundTint="#4285F4" />
+        </LinearLayout>
+
+        <TextView 
+            android:id="@+id/tv_notif_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_notif_title"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_toEndOf="@id/rl_icon_container"
+            android:text="Notification message content goes here."
+            android:textColor="@color/grey_text"
+            android:textSize="13sp" />
+    </RelativeLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_premium"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_premium"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.GOIretrieval">
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.GOIretrieval">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".OnboardingActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".SignInActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".CreateNewPasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".SearchDocsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".BrowseDocsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+
+        <activity
+            android:name=".ArticleViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".AIAssistActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".PersonalInfoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".RolePermissionsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".PreferencesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".NotificationSettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".SystemConfigurationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".HelpSupportActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".SecuritySettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".PrivacySettingsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".AboutAppActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".TermsConditionsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".LoginActivityHistoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".DeviceManagementActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".AIChatbotActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval"
+            android:windowSoftInputMode="adjustPan" />
+            
+        <activity
+            android:name=".ReportsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".RecentActivityLogActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".FAQActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".UserGuideActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+            
+        <activity
+            android:name=".AIComplianceResultsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".AIAuditResultsActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".PdfViewerActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".AIAuditDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".SecurityChangePasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".SecurityVerifyOtpActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".SecurityUpdatePasswordActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".SubscriptionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <activity
+            android:name=".TwoFactorVerifyActivity"
+            android:exported="false"
+            android:theme="@style/Theme.GOIretrieval" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.simats.goiretrieval.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- Recurring Reminder Receiver -->
+        <receiver
+            android:name=".utils.ReminderReceiver"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
