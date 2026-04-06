@@ -79,61 +79,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="12dp"
+                android:layout_marginBottom="16dp"
                 android:fontFamily="sans-serif-medium"
                 android:text="Your Recent AI Audits"
                 android:textColor="@color/navy_home"
                 android:textSize="16sp" />
-
-            <!-- Day Wise Filter Chips -->
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:scrollbars="none">
-
-                <com.google.android.material.chip.ChipGroup
-                    android:id="@+id/cg_filter_days"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:singleSelection="true"
-                    app:selectionRequired="true">
-
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_all"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="All Audits"
-                        app:chipBackgroundColor="@android:color/white"
-                        style="@style/Widget.MaterialComponents.Chip.Choice"
-                        android:checked="true" />
-
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_today"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Today"
-                        app:chipBackgroundColor="@android:color/white"
-                        style="@style/Widget.MaterialComponents.Chip.Choice" />
-
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_7_days"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Last 7 Days"
-                        app:chipBackgroundColor="@android:color/white"
-                        style="@style/Widget.MaterialComponents.Chip.Choice" />
-
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/chip_30_days"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Last 30 Days"
-                        app:chipBackgroundColor="@android:color/white"
-                        style="@style/Widget.MaterialComponents.Chip.Choice" />
-
-                </com.google.android.material.chip.ChipGroup>
-            </HorizontalScrollView>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rv_reports_grid"

@@ -1,0 +1,543 @@
+﻿Initialized native services in: C:\Users\pokal\.gradle\native
+Initialized jansi services in: C:\Users\pokal\.gradle\native
+The client will now receive all logging from the daemon (pid: 26228). The daemon log file: C:\Users\pokal\.gradle\daemon\9.1.0\daemon-26228.out.log
+Starting 7th build in daemon [uptime: 26 mins 10.269 secs, performance: 98%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 12 worker leases.
+Now considering [C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\settings.gradle.kts'.
+Projects loaded. Root project using build file 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\build.gradle.kts'.
+Included projects: [root project 'GOI Retrieval', project ':app']
+
+> Configure project :
+Evaluating root project 'GOI Retrieval' using build file 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.0.1', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '9.0.1']
+Build faf94c20-de6e-4381-af3a-1ae1b498b58a is started
+Using default execution profile
+All projects evaluated.
+Task name matched 'assembleDebug'
+Selected primary task 'assembleDebug' from project :
+Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+Tasks to be executed: [task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:generateDebugResources', task ':app:packageDebugResources', task ':app:processDebugNavigationResources', task ':app:parseDebugLocalResources', task ':app:generateDebugRFile', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:generateDebugAssets', task ':app:mergeDebugAssets', task ':app:compressDebugAssets', task ':app:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:desugarDebugFileDependencies', task ':app:mergeExtDexDebug', task ':app:mergeLibDexDebug', task ':app:checkDebugAarMetadata', task ':app:compileDebugNavigationResources', task ':app:mapDebugSourceSetPaths', task ':app:mergeDebugResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:dexBuilderDebug', task ':app:mergeProjectDexDebug', task ':app:mergeDebugJniLibFolders', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug']
+Tasks that were excluded: []
+Resolve mutations for :app:preBuild (Thread[#866,Execution worker,5,main]) started.
+:app:preBuild (Thread[#866,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#866,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#868,Execution worker Thread 3,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#866,Execution worker,5,main]) started.
+:app:mergeDebugNativeDebugMetadata (Thread[#866,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+Resolve mutations for :app:generateDebugResources (Thread[#866,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#866,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#866,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#866,Execution worker,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:processDebugNavigationResources (Thread[#866,Execution worker,5,main]) started.
+:app:processDebugNavigationResources (Thread[#866,Execution worker,5,main]) started.
+
+> Task :app:processDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:processDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#866,Execution worker,5,main]) started.
+:app:parseDebugLocalResources (Thread[#866,Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:generateDebugRFile (Thread[#866,Execution worker,5,main]) started.
+:app:generateDebugRFile (Thread[#866,Execution worker,5,main]) started.
+
+> Task :app:generateDebugRFile UP-TO-DATE
+Caching disabled for task ':app:generateDebugRFile' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugRFile' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[#866,Execution worker,5,main]) started.
+:app:compileDebugKotlin (Thread[#866,Execution worker,5,main]) started.
+Resolve mutations for :app:javaPreCompileDebug (Thread[#867,Execution worker Thread 2,5,main]) started.
+:app:javaPreCompileDebug (Thread[#867,Execution worker Thread 2,5,main]) started.
+
+> Task :app:javaPreCompileDebug UP-TO-DATE
+Caching disabled for task ':app:javaPreCompileDebug' because:
+  Build cache is disabled
+Skipping task ':app:javaPreCompileDebug' as it is up-to-date.
+Resolve mutations for :app:generateDebugAssets (Thread[#867,Execution worker Thread 2,5,main]) started.
+:app:generateDebugAssets (Thread[#870,Execution worker Thread 5,5,main]) started.
+
+> Task :app:generateDebugAssets UP-TO-DATE
+Skipping task ':app:generateDebugAssets' as it has no actions.
+Resolve mutations for :app:mergeDebugAssets (Thread[#870,Execution worker Thread 5,5,main]) started.
+:app:mergeDebugAssets (Thread[#870,Execution worker Thread 5,5,main]) started.
+
+> Task :app:mergeDebugAssets UP-TO-DATE
+Caching disabled for task ':app:mergeDebugAssets' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugAssets' as it is up-to-date.
+Resolve mutations for :app:compressDebugAssets (Thread[#870,Execution worker Thread 5,5,main]) started.
+:app:compressDebugAssets (Thread[#870,Execution worker Thread 5,5,main]) started.
+
+> Task :app:compressDebugAssets UP-TO-DATE
+Caching disabled for task ':app:compressDebugAssets' because:
+  Build cache is disabled
+Skipping task ':app:compressDebugAssets' as it is up-to-date.
+Resolve mutations for :app:checkDebugDuplicateClasses (Thread[#870,Execution worker Thread 5,5,main]) started.
+:app:checkDebugDuplicateClasses (Thread[#870,Execution worker Thread 5,5,main]) started.
+
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+Caching disabled for task ':app:checkDebugDuplicateClasses' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugDuplicateClasses' as it is up-to-date.
+Resolve mutations for :app:desugarDebugFileDependencies (Thread[#870,Execution worker Thread 5,5,main]) started.
+:app:desugarDebugFileDependencies (Thread[#870,Execution worker Thread 5,5,main]) started.
+
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+Caching disabled for task ':app:desugarDebugFileDependencies' because:
+  Build cache is disabled
+Skipping task ':app:desugarDebugFileDependencies' as it is up-to-date.
+Resolve mutations for :app:mergeExtDexDebug (Thread[#870,Execution worker Thread 5,5,main]) started.
+:app:mergeExtDexDebug (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeExtDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeExtDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeExtDexDebug' as it is up-to-date.
+Resolve mutations for :app:mergeLibDexDebug (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:mergeLibDexDebug (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeLibDexDebug UP-TO-DATE
+Caching disabled for task ':app:mergeLibDexDebug' because:
+  Build cache is disabled
+Skipping task ':app:mergeLibDexDebug' as it is up-to-date.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:compileDebugNavigationResources (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:compileDebugNavigationResources (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+Caching disabled for task ':app:compileDebugNavigationResources' because:
+  Build cache is disabled
+Skipping task ':app:compileDebugNavigationResources' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:mergeDebugResources (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:processDebugMainManifest (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:processDebugManifest (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#876,Execution worker Thread 11,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#876,Execution worker Thread 11,5,main]) started.
+:app:processDebugResources (Thread[#876,Execution worker Thread 11,5,main]) started.
+Resolve mutations for :app:mergeDebugJniLibFolders (Thread[#867,Execution worker Thread 2,5,main]) started.
+:app:mergeDebugJniLibFolders (Thread[#867,Execution worker Thread 2,5,main]) started.
+
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+Caching disabled for task ':app:mergeDebugJniLibFolders' because:
+  Build cache is disabled
+  Simple merging task
+Skipping task ':app:mergeDebugJniLibFolders' as it is up-to-date.
+Resolve mutations for :app:mergeDebugNativeLibs (Thread[#867,Execution worker Thread 2,5,main]) started.
+:app:mergeDebugNativeLibs (Thread[#867,Execution worker Thread 2,5,main]) started.
+
+> Task :app:mergeDebugNativeLibs NO-SOURCE
+Skipping task ':app:mergeDebugNativeLibs' as it has no source files and no previous output files.
+Resolve mutations for :app:stripDebugDebugSymbols (Thread[#867,Execution worker Thread 2,5,main]) started.
+:app:stripDebugDebugSymbols (Thread[#867,Execution worker Thread 2,5,main]) started.
+
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+Skipping task ':app:stripDebugDebugSymbols' as it has no source files and no previous output files.
+Resolve mutations for :app:validateSigningDebug (Thread[#867,Execution worker Thread 2,5,main]) started.
+:app:validateSigningDebug (Thread[#867,Execution worker Thread 2,5,main]) started.
+
+> Task :app:validateSigningDebug UP-TO-DATE
+Caching disabled for task ':app:validateSigningDebug' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:validateSigningDebug' as it is up-to-date.
+Resolve mutations for :app:writeDebugAppMetadata (Thread[#867,Execution worker Thread 2,5,main]) started.
+:app:writeDebugAppMetadata (Thread[#867,Execution worker Thread 2,5,main]) started.
+
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+Caching disabled for task ':app:writeDebugAppMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugAppMetadata' as it is up-to-date.
+Resolve mutations for :app:writeDebugSigningConfigVersions (Thread[#867,Execution worker Thread 2,5,main]) started.
+:app:writeDebugSigningConfigVersions (Thread[#867,Execution worker Thread 2,5,main]) started.
+
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+Caching disabled for task ':app:writeDebugSigningConfigVersions' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:writeDebugSigningConfigVersions' as it is up-to-date.
+
+> Task :app:compileDebugKotlin
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+Custom actions are attached to task ':app:compileDebugKotlin'.
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:compileDebugKotlin'.
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\kotlin', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+file or directory 'C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\debug\java', not found
+Kotlin source files: C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\AboutAppActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ActivityLogger.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\AIAssistActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\AIAssistFragment.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\AIAuditDetailActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\AIChatbotActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\AIComplianceResultsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\api\ApiService.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\api\Models.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\api\RetrofitClient.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ArticleViewActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\AuditResultsAdapter.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\BrowseDocsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\BrowseDocsAdapter.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ChatMessage.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ComplianceResultAdapter.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\CreateNewPasswordActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\DeviceManagementActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\DocsFragment.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\EditProfileActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\FAQActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ForgotPasswordActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\HelpSupportActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\HomeFragment.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\LoginActivityHistoryActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\MainActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\NotificationAdapter.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\NotificationPrefs.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\NotificationsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\NotificationSettingsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\OnboardingActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\PersonalInfoActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\PreferencesActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\PrivacyPolicyActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\PrivacySettingsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ProfileActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ProfileFragment.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\RecentActivityAdapter.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\RecentActivityLogActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\RegisterActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ReportsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ReportsAdapter.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\ResetPasswordActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\RolePermissionsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\SearchDocsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\SearchFragment.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\SecuritySettingsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\SessionManager.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\SignInActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\SplashActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\SystemConfigurationActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\TermsConditionsActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\TrendGraphView.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\UserGuideActivity.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\utils\AISummaryGenerator.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\utils\DocumentTextExtractor.kt, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\src\main\java\com\simats\goiretrieval\utils\ValidationUtils.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: C:\Program Files\Java\jdk-21
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), sourceChanges=org.jetbrains.kotlin.buildtools.api.SourcesChanges$Unknown@42fb4eba, classpathChanges=NotAvailableForNonIncrementalRun, workingDir=C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\kotlin\compileDebugKotlin\cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\kotlin\compileDebugKotlin\local-state\build-history.bin, useModuleDetection=true), icFeatures=IncrementalCompilationFeatures(usePreciseJavaTracking=true, withAbiSnapshot=false, preciseCompilationResultsBackup=true, keepIncrementalCompilationCachesInMemory=true, enableUnsafeIncrementalCompilationForMultiplatform=false, enableMonotonousIncrementalCompileSetExpansion=true), outputFiles=[C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\intermediates\built_in_kotlinc\debug\compileDebugKotlin\classes, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\kotlin\compileDebugKotlin\cacheable, C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\kotlin\compileDebugKotlin\local-state])
+
+> Task :app:processDebugResources FAILED
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Task ':app:processDebugResources' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:processDebugResources'.
+AAPT2 aapt2-9.0.1-14304508-windows Daemon #0: starting
+Android resource linking failed:
+process = AAPT2 aapt2-9.0.1-14304508-windows Daemon #0:
+command = C:\Users\pokal\.gradle\caches\9.1.0\transforms\abb3fe0a43d9999718def13f23dbd692\workspace\transformed\aapt2-9.0.1-14304508-windows\aapt2.exe link -I\
+        C:\Users\pokal\AppData\Local\Android\Sdk\platforms\android-35\android.jar\
+        --manifest\
+        C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\intermediates\packaged_manifests\debug\processDebugManifestForPackage\AndroidManifest.xml\
+        -o\
+        C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\intermediates\linked_resources_binary_format\debug\processDebugResources\linked-resources-binary-format-debug.ap_\
+        -R\
+        @C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\intermediates\incremental\processDebugResources\resources-list-for-linked-resources-binary-format-debug.ap_.txt\
+        --auto-add-overlay\
+        --custom-package\
+        com.simats.goiretrieval\
+        -0\
+        apk\
+        --output-text-symbols\
+        C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\intermediates\runtime_symbol_list\debug\processDebugResources\R.txt\
+        --no-version-vectors\
+        --proguard-minimal-keep-rules\
+        --no-proguard-location-reference\
+        --emit-ids\
+        C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval\app\build\intermediates\stable_resource_ids_file\debug\processDebugResources\stableIds.txt
+
+> Task :app:compileDebugKotlin FAILED
+.\gradlew : e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIA
+ssistActivity.kt:143:39 Unresolved reference 'AIAuditResultsActivity'.
+At line:1 char:1
++ .\gradlew assembleDebug --info > build_info.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (e: file:///C:/U...sultsActivity'.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:143:69 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:143:69 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val <T> KClass<T>.java: Class<T>
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:143:75 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:143:75 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T> T.apply(block: T.() -> Unit): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:143:81 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:144:17 Unresolved reference 'putParcelableArrayListExtra'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:145:17 Unresolved reference 'putExtra'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:146:17 Unresolved reference 'putExtra'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistActivit
+y.kt:147:17 Unresolved reference 'putExtra'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:124:51 Unresolved reference 'AIAuditResultsActivity'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:124:81 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:124:81 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+val <T> KClass<T>.java: Class<T>
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:124:87 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:124:87 Unresolved reference. None of the following candidates is applicable because of a receiver type mismatch:
+fun <T> T.apply(block: T.() -> Unit): T
+    [R|Contract description]
+     <
+        CallsInPlace(block, EXACTLY_ONCE)
+    >
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:124:93 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:125:17 Unresolved reference 'putParcelableArrayListExtra'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:126:17 Unresolved reference 'putExtra'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:127:17 Unresolved reference 'putExtra'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIAssistFragmen
+t.kt:128:17 Unresolved reference 'putExtra'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIChatbotActivi
+ty.kt:26:39 Unresolved reference 'ChatAdapter'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIChatbotActivi
+ty.kt:47:23 Unresolved reference 'ChatAdapter'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIChatbotActivi
+ty.kt:75:25 Unresolved reference 'addMessage'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/AIChatbotActivi
+ty.kt:112:21 Unresolved reference 'addMessage'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/BrowseDocsActiv
+ity.kt:125:21 Unresolved reference 'DocumentRepository'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/BrowseDocsAdapt
+er.kt:46:23 Unresolved reference 'DocumentRepository'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/BrowseDocsAdapt
+er.kt:108:21 Unresolved reference 'DocumentRepository'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/BrowseDocsAdapt
+er.kt:123:25 Unresolved reference 'DocumentRepository'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/DocsFragment.kt
+:98:21 Unresolved reference 'DocumentRepository'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/HomeFragment.kt
+:211:52 Unresolved reference 'graph_tooltip_flag'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/HomeFragment.kt
+:212:54 Unresolved reference 'tv_tooltip_day'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/HomeFragment.kt
+:213:56 Unresolved reference 'tv_tooltip_count'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/PersonalInfoAct
+ivity.kt:17:33 Unresolved reference 'activity_personal_info'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/PersonalInfoAct
+ivity.kt:31:41 Unresolved reference 'btn_edit_header'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/PersonalInfoAct
+ivity.kt:36:41 Unresolved reference 'btn_edit_center'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/PersonalInfoAct
+ivity.kt:61:37 Unresolved reference 'tv_name_summary'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/PersonalInfoAct
+ivity.kt:62:37 Unresolved reference 'tv_name_detail'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/PersonalInfoAct
+ivity.kt:63:37 Unresolved reference 'tv_email_detail'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/PersonalInfoAct
+ivity.kt:64:37 Unresolved reference 'tv_avatar_initial'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/ProfileActivity
+.kt:66:59 Unresolved reference 'row_title'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/ProfileActivity
+.kt:67:59 Unresolved reference 'row_icon'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/ProfileFragment
+.kt:57:59 Unresolved reference 'row_title'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/ProfileFragment
+.kt:58:59 Unresolved reference 'row_icon'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchDocsActiv
+ity.kt:27:35 Unresolved reference 'SearchDocsAdapter'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchDocsActiv
+ity.kt:76:29 Unresolved reference 'updateList'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchDocsActiv
+ity.kt:151:19 Unresolved reference 'SearchDocsAdapter'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchDocsActiv
+ity.kt:151:37 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchDocsActiv
+ity.kt:194:17 Unresolved reference 'updateList'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchFragment.
+kt:25:35 Unresolved reference 'SearchDocsAdapter'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchFragment.
+kt:34:42 Unresolved reference 'fragment_search'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchFragment.
+kt:63:29 Unresolved reference 'updateList'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchFragment.
+kt:99:19 Unresolved reference 'SearchDocsAdapter'.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchFragment.
+kt:99:37 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///C:/Users/pokal/AndroidStudioProjects/GOI_Retrieval/app/src/main/java/com/simats/goiretrieval/SearchFragment.
+kt:140:17 Unresolved reference 'updateList'.
+Finished executing kotlin compiler using DAEMON strategy
+AAPT2 aapt2-9.0.1-14304508-windows Daemon #0: shutdown
+Build faf94c20-de6e-4381-af3a-1ae1b498b58a is closed
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:processDebugResources'.
+> A failure occurred while executing 
+com.android.build.gradle.internal.res.LinkApplicationAndroidResourcesTask$TaskAction
+   > Android resource linking failed
+     com.simats.goiretrieval.app-main-33:/layout/activity_profile.xml:188: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/activity_profile.xml:190: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/activity_profile.xml:192: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/activity_profile.xml:216: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/activity_profile.xml:218: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/activity_profile.xml:242: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/activity_profile.xml:244: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/activity_profile.xml:246: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_home.xml:365: error: resource layout/layout_graph_flag (aka 
+com.simats.goiretrieval:layout/layout_graph_flag) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_profile.xml:174: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_profile.xml:176: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_profile.xml:178: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_profile.xml:202: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_profile.xml:204: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_profile.xml:228: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_profile.xml:230: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     com.simats.goiretrieval.app-main-33:/layout/fragment_profile.xml:232: error: resource 
+layout/item_profile_menu_row (aka com.simats.goiretrieval:layout/item_profile_menu_row) not found.
+     error: failed linking file resources.
+
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+2: Task failed with an exception.
+27 actionable tasks: 2 executed, 25 up-to-date
+-----------
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing 
+org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to generate a Build Scan (Powered by Develocity).
+> Get more help at https://help.gradle.org.
+==============================================================================
+
+BUILD FAILED in 34s
+Watched directory hierarchies: [C:\Users\pokal\AndroidStudioProjects\GOI_Retrieval]

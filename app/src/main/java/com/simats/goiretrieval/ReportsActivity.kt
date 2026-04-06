@@ -26,8 +26,8 @@ import java.util.*
 class ReportsActivity : AppCompatActivity() {
 
     private lateinit var rvReports: RecyclerView
+    private lateinit var rvReports: RecyclerView
     private lateinit var progressBar: ProgressBar
-    private lateinit var cgFilterDays: ChipGroup
     private var allReports = mutableListOf<ApiDocument>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,7 +37,6 @@ class ReportsActivity : AppCompatActivity() {
 
         progressBar = findViewById(R.id.pb_reports)
         rvReports = findViewById(R.id.rv_reports_grid)
-        cgFilterDays = findViewById(R.id.cg_filter_days)
         
         setupRecyclerView()
         setupListeners()
@@ -47,10 +46,6 @@ class ReportsActivity : AppCompatActivity() {
     private fun setupListeners() {
         findViewById<ImageView>(R.id.btn_back).setOnClickListener {
             finish()
-        }
-
-        cgFilterDays.setOnCheckedChangeListener { _, _ ->
-            applyFilter()
         }
 
         findViewById<ImageView>(R.id.iv_info_reports).setOnClickListener {
@@ -63,9 +58,6 @@ class ReportsActivity : AppCompatActivity() {
                 .setPositiveButton("Got it") { dialog, _ -> dialog.dismiss() }
                 .show()
         }
-
-        setupRecyclerView()
-        fetchReports()
     }
 
     private fun setupRecyclerView() {
@@ -82,7 +74,7 @@ class ReportsActivity : AppCompatActivity() {
                     val rawReports = response.body()?.documents ?: emptyList()
                     // Filter out official docs and store in allReports
                     allReports = rawReports.filter { it.id != null && !it.id!!.startsWith("DOC") }.toMutableList()
-                    applyFilter() // Show initial filtered list (All by default)
+                    updateRecyclerView(allReports) // Show all reports directly
                 }
             }
 
@@ -91,45 +83,6 @@ class ReportsActivity : AppCompatActivity() {
                 Toast.makeText(this@ReportsActivity, "Failed to load reports", Toast.LENGTH_SHORT).show()
             }
         })
-    }
-
-    private fun applyFilter() {
-        val filteredList = when (cgFilterDays.checkedChipId) {
-            R.id.chip_today -> filterByDays(0)
-            R.id.chip_7_days -> filterByDays(7)
-            R.id.chip_30_days -> filterByDays(30)
-            else -> allReports // chip_all or none
-        }
-        updateRecyclerView(filteredList)
-    }
-
-    private fun filterByDays(days: Int): List<ApiDocument> {
-        val sdf = SimpleDateFormat("dd MMM yyyy", Locale.getDefault())
-        val calendar = Calendar.getInstance()
-        
-        if (days == 0) {
-            // Today: Start from 00:00
-            calendar.set(Calendar.HOUR_OF_DAY, 0)
-            calendar.set(Calendar.MINUTE, 0)
-            calendar.set(Calendar.SECOND, 0)
-            calendar.set(Calendar.MILLISECOND, 0)
-        } else {
-            // Last N days
-            calendar.add(Calendar.DAY_OF_YEAR, -days)
-        }
-        
-        val cutoffDate = calendar.time
-
-        return allReports.filter { doc ->
-            try {
-                // Many reports use "dd MMM yyyy, HH:mm"
-                val dateStr = doc.date ?: return@filter false
-                val docDate = sdf.parse(dateStr)
-                docDate != null && docDate.after(cutoffDate)
-            } catch (e: Exception) {
-                false
-            }
-        }
     }
 
     private fun updateRecyclerView(reports: List<ApiDocument>) {
