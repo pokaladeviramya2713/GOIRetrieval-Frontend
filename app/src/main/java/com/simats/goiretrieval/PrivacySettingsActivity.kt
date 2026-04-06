@@ -185,11 +185,7 @@ class PrivacySettingsActivity : AppCompatActivity() {
                     resolver.update(uri, contentValues, null, null)
                 }
                 
-                // Broad cast for media scan (legacy but still helpful in some scenarios)
-                val intent = Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE)
-                intent.data = uri
-                sendBroadcast(intent)
-                
+                // Scoped storage handles file indexing automatically for files inserted into MediaStore
                 true
             } else {
                 false

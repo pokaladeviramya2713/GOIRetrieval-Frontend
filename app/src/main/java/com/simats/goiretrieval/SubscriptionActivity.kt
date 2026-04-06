@@ -57,7 +57,7 @@ class SubscriptionActivity : AppCompatActivity(), PurchasesUpdatedListener {
     private fun setupBillingClient() {
         billingClient = BillingClient.newBuilder(this)
             .setListener(this)
-            .enablePendingPurchases()
+            .enablePendingPurchases(PendingPurchasesParams.newBuilder().enableOneTimeProducts().build())
             .build()
 
         billingClient.startConnection(object : BillingClientStateListener {
@@ -248,7 +248,6 @@ class SubscriptionActivity : AppCompatActivity(), PurchasesUpdatedListener {
 
     private fun getResponseCodeMessage(responseCode: Int): String {
         return when (responseCode) {
-            BillingClient.BillingResponseCode.SERVICE_TIMEOUT -> "Service timeout"
             BillingClient.BillingResponseCode.FEATURE_NOT_SUPPORTED -> "Feature not supported"
             BillingClient.BillingResponseCode.SERVICE_DISCONNECTED -> "Service disconnected"
             BillingClient.BillingResponseCode.BILLING_UNAVAILABLE -> "Billing unavailable"

@@ -228,11 +228,10 @@ class AIAuditResultsActivity : AppCompatActivity(), AuditResultsAdapter.OnExport
         val reportId = "Audit_${System.currentTimeMillis()}"
         val request = BriefingExportRequest(userId, auditData, currentQuestions, reportId)
 
-        val progressDialog = android.app.ProgressDialog(this).apply {
-            setMessage("Generating & Opening Executive Report...")
-            setCancelable(false)
-            show()
-        }
+        val dialog = com.google.android.material.dialog.MaterialAlertDialogBuilder(this)
+            .setMessage("Generating & Opening Executive Report...")
+            .setCancelable(false)
+            .show()
 
         RetrofitClient.instance.exportAuditPdf(request).enqueue(object : Callback<ResponseBody> {
             override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
@@ -254,7 +253,7 @@ class AIAuditResultsActivity : AppCompatActivity(), AuditResultsAdapter.OnExport
                                 }
                                 
                                 runOnUiThread {
-                                    progressDialog.dismiss()
+                                    dialog.dismiss()
                                     try {
                                         val contentUri = FileProvider.getUriForFile(
                                             this@AIAuditResultsActivity,
@@ -274,24 +273,24 @@ class AIAuditResultsActivity : AppCompatActivity(), AuditResultsAdapter.OnExport
                                 }
                             } catch (e: Exception) {
                                 runOnUiThread {
-                                    progressDialog.dismiss()
+                                    dialog.dismiss()
                                     Toast.makeText(this@AIAuditResultsActivity, "Save failed: ${e.message}", Toast.LENGTH_LONG).show()
                                 }
                             }
                         }.start()
                     } else {
-                        progressDialog.dismiss()
+                        dialog.dismiss()
                         Toast.makeText(this@AIAuditResultsActivity, "Export failed: Server returned non-PDF content", Toast.LENGTH_LONG).show()
                     }
                 } else {
-                    progressDialog.dismiss()
+                    dialog.dismiss()
                     val errorMsg = try { response.errorBody()?.string() ?: "Unknown error" } catch(e: Exception) { "Error ${response.code()}" }
                     Toast.makeText(this@AIAuditResultsActivity, "Server Error: $errorMsg", Toast.LENGTH_LONG).show()
                 }
             }
 
             override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
-                progressDialog.dismiss()
+                dialog.dismiss()
                 Toast.makeText(this@AIAuditResultsActivity, "Network Error: ${t.message}", Toast.LENGTH_SHORT).show()
             }
         })
