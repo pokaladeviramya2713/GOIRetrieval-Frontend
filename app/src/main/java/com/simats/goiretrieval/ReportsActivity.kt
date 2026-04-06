@@ -26,7 +26,6 @@ import java.util.*
 class ReportsActivity : AppCompatActivity() {
 
     private lateinit var rvReports: RecyclerView
-    private lateinit var rvReports: RecyclerView
     private lateinit var progressBar: ProgressBar
     private var allReports = mutableListOf<ApiDocument>()
 
