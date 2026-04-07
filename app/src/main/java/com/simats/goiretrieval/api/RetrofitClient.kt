@@ -6,8 +6,8 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
-    // For mobile hotspot testing
-    const val BASE_URL = "http://192.168.249.116:8000/"
+    // For mobile hotspot testing.
+    const val BASE_URL = "http://180.235.121.253:8165/"
     
     // For laptop's local hotspot
     // const val BASE_URL = "http://192.168.137.1:8000/"
